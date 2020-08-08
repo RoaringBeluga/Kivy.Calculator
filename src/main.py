@@ -2,10 +2,8 @@ import kivy
 kivy.require('1.11.1') # replace with your current kivy version !
 
 from kivy.app import App
-from kivy.uix.label import Label
 from kivy.uix.gridlayout import GridLayout
-from kivy.uix.textinput import TextInput
-from kivy.uix.button import Button
+
 
 from cpu2 import CalcCPU2
 
