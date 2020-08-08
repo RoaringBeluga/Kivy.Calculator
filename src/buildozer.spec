@@ -10,7 +10,7 @@ package.name = stoopidcalc
 package.domain = net.nowherelands
 
 # (str) Source code where the main.py live
-source.dir = src
+source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
 source.include_exts = py,png,jpg,kv,atlas
@@ -19,10 +19,10 @@ source.include_exts = py,png,jpg,kv,atlas
 #source.include_patterns = resources/*,images/*.png
 
 # (list) Source files to exclude (let empty to not exclude anything)
-#source.exclude_exts = spec
+source.exclude_exts = spec
 
 # (list) List of directory to exclude (let empty to not exclude anything)
-#source.exclude_dirs = tests, bin
+source.exclude_dirs = tests, bin, kivy
 
 # (list) List of exclusions using pattern matching
 #source.exclude_patterns = license,images/*/*.jpg

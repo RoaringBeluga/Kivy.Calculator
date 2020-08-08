@@ -1,2 +1,6 @@
 # Project exclude paths
-/venv/
+bin
+kivy
+.idea
+/src/bin/
+/src/.buildozer/
