@@ -32,7 +32,7 @@ version = 0.1
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
-# version.filename = %(source.dir)s/main.py
+version.filename = %(source.dir)s/main.py
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
@@ -270,10 +270,10 @@ ios.ios_deploy_branch = 1.7.0
 
 # (str) Name of the certificate to use for signing the debug version
 # Get a list of available identities: buildozer ios list_identities
-#ios.codesign.debug = "iPhone Developer: <lastname> <firstname> (<hexstring>)"
+ios.codesign.debug = "Apple Development: komissarov_family@icloud.com (XFW6D88472)"
 
 # (str) Name of the certificate to use for signing the release version
-#ios.codesign.release = %(ios.codesign.debug)s
+ios.codesign.release = %(ios.codesign.debug)s
 
 
 [buildozer]
