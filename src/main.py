@@ -1,15 +1,14 @@
 import kivy
-kivy.require('1.11.1') # replace with your current kivy version !
+
+kivy.require('1.11.1')  # replace with your current kivy version !
 
 from kivy.app import App
 from kivy.uix.gridlayout import GridLayout
-
 
 from cpu2 import CalcCPU2
 
 
 class MainScreen(GridLayout):
-
     cpu = CalcCPU2()
     started_input = True
 
@@ -45,6 +44,7 @@ class MainScreen(GridLayout):
     def reset_calc(self):
         self.cpu = CalcCPU2()
         self.clear_input()
+
 
 class MyApp(App):
 
