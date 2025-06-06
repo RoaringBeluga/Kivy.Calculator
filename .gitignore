@@ -4,3 +4,4 @@ kivy
 .idea
 /src/bin/
 /src/.buildozer/
+/src/__pycache__/
